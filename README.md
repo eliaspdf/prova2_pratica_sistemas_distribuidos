@@ -43,3 +43,32 @@ R: serve para barrar pedidos, quando chega no máximo.
 
 questão 5
 R: deve acontecer antes, para que o processamento possa acontecer corretamente.
+
+
+
+*evidências*
+
+resultado antes das alterações:
+PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos> python central_pedidos.py
+=== CENTRAL DE PEDIDOS ===
+Limite simultâneo: 3
+Estoque inicial: 10
+Pedidos confirmados: [101, 102, 103]
+Estoque principal: 7
+Réplica antes: 10
+Réplica depois: 10
+Consulta após falha: INDISPONIVEL None
+PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos>
+
+
+resultado após as alterações:
+PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos> python central_pedidos.py
+=== CENTRAL DE PEDIDOS ===
+Limite simultâneo: 2
+Estoque inicial: 10
+Pedidos confirmados: [101, 102, 103]
+Estoque principal: 7
+Réplica antes: 10
+Réplica depois: 7
+Consulta após falha: REPLICA 7
+PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos>
