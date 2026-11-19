@@ -30,6 +30,7 @@ alteração: eu mudei o segundo if, de principal para replica.
 após as correções, o programa cumpriu corretamente sua função.
 
 7. análise técnica
+
 questão 1
 R: ele limita o máximo de pedidos.
 
