@@ -1,6 +1,7 @@
 # prova2_pratica_sistemas_distribuidos
 
 Aluno: Elias Pina de faria
+
 Data: 18/11/2026
 
 1. situação-problema
@@ -49,6 +50,7 @@ R: deve acontecer antes, para que o processamento possa acontecer corretamente.
 *evidências*
 
 resultado antes das alterações:
+
 PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos> python central_pedidos.py
 === CENTRAL DE PEDIDOS ===
 Limite simultâneo: 3
@@ -62,6 +64,7 @@ PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos>
 
 
 resultado após as alterações:
+
 PS C:\Users\Lenovo\OneDrive\Desktop\P2_distribuidos> python central_pedidos.py
 === CENTRAL DE PEDIDOS ===
 Limite simultâneo: 2
